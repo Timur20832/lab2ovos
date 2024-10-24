@@ -6,13 +6,9 @@ services:
     restart: always
     ports:
       - '9000:8080'
-    volumes:
-      - ./:/app
   game2:
     build: .
     container_name: 2048-game-2
     restart: always
     ports:
       - '9001:8080'
-    volumes:
-      - ./:/app
